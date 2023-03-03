@@ -1,8 +1,9 @@
-.header{
+.header {
   background-color: brown;
-  color: rgb(153, 183, 209);
+  color: rgb;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20pc 30pc ;
+  padding: 10px 30px;
 }
