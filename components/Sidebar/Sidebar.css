@@ -1,7 +1,21 @@
 .sidebar {
   text-align: center;
-
+  margin-top: 10px;
   width: 25%;
   background-color: azure;
   height: calc(100vh - 47px);
+}
+.sidebar ul {
+  list-style: lower-roman;
+}
+.sidebar li {
+}
+.sidebar li a {
+  display: block;
+  background-color: brown;
+  color: black;
+  padding: 7px;
+  margin-bottom: 10px;
+  font-size: large;
+  text-decoration: none;
 }
