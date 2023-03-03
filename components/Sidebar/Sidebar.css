@@ -1,5 +1,7 @@
 .sidebar {
+  text-align: center;
+
   width: 25%;
-  background-color: aqua;
-  height: auto;
+  background-color: azure;
+  height: calc(100vh - 47px);
 }
