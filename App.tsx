@@ -6,10 +6,12 @@ import Sidebar from './components/Sidebar/Sidebar';
 
 export default function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
-      <Sidebar />
-      <Form />
+      <div className="main">
+        <Sidebar />
+        <Form />
+      </div>
     </div>
   );
 }
