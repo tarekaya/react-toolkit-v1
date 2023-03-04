@@ -6,8 +6,10 @@ export default function Form() {
   const [firstName, setfirstName] = useState('');
   const [email, setEmail] = useState('');
   const [city, setCity] = useState('');
-  handleSubmit = (e) => {
-    e.pre
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
   };
   return (
     <form onSubmit={handleSubmit(e)}>
