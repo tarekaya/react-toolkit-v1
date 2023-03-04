@@ -1,4 +1,6 @@
 import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+
 import './Form.css';
 
 export default function Form() {
@@ -6,10 +8,11 @@ export default function Form() {
   const [firstName, setfirstName] = useState('');
   const [email, setEmail] = useState('');
   const [city, setCity] = useState('');
-  
+
+  const dispatch = useDispatch();
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    dispatch(addUser({ name, firstName, email, city }));
   };
   return (
     <form onSubmit={handleSubmit(e)}>
